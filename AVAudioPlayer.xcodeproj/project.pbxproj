@@ -13,6 +13,7 @@
 		2FF2CCF7222CDEA900F7DFBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF2CCF6222CDEA900F7DFBE /* Assets.xcassets */; };
 		2FF2CCFA222CDEA900F7DFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF2CCF8222CDEA900F7DFBE /* LaunchScreen.storyboard */; };
 		2FF2CCFD222CDEA900F7DFBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2CCFC222CDEA900F7DFBE /* main.m */; };
+		2FF2CD05222CDF4100F7DFBE /* MusicBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2CD04222CDF4100F7DFBE /* MusicBarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2FF2CCF9222CDEA900F7DFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FF2CCFB222CDEA900F7DFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FF2CCFC222CDEA900F7DFBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FF2CD03222CDF4100F7DFBE /* MusicBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicBarView.h; sourceTree = "<group>"; };
+		2FF2CD04222CDF4100F7DFBE /* MusicBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicBarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				2FF2CCEE222CDEA800F7DFBE /* AppDelegate.m */,
 				2FF2CCF0222CDEA800F7DFBE /* ViewController.h */,
 				2FF2CCF1222CDEA800F7DFBE /* ViewController.m */,
+				2FF2CD03222CDF4100F7DFBE /* MusicBarView.h */,
+				2FF2CD04222CDF4100F7DFBE /* MusicBarView.m */,
 				2FF2CCF3222CDEA800F7DFBE /* Main.storyboard */,
 				2FF2CCF6222CDEA900F7DFBE /* Assets.xcassets */,
 				2FF2CCF8222CDEA900F7DFBE /* LaunchScreen.storyboard */,
@@ -143,6 +148,7 @@
 			files = (
 				2FF2CCF2222CDEA800F7DFBE /* ViewController.m in Sources */,
 				2FF2CCFD222CDEA900F7DFBE /* main.m in Sources */,
+				2FF2CD05222CDF4100F7DFBE /* MusicBarView.m in Sources */,
 				2FF2CCEF222CDEA800F7DFBE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
