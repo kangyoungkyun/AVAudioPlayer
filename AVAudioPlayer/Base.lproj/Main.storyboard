@@ -22,6 +22,9 @@
                                 <rect key="frame" x="317" y="41" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="곡선택"/>
+                                <connections>
+                                    <action selector="onDrawer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zht-0M-NY7"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="정보" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7cn-cA-jgc">
                                 <rect key="frame" x="67" y="86" width="240" height="128"/>
